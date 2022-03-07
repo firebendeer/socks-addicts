@@ -27,6 +27,7 @@
 .hero{
     max-width: 960px;
     margin: auto;
+    margin-bottom: 100px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -38,6 +39,7 @@ a{
 button{
     border-style: none;
     border-radius: 10px;
+    margin-top: 10px;
     padding: 4px 16px;
     background-color: #3882F6;
     color: #f9faf8;
@@ -58,10 +60,33 @@ ul{
 }
 
 .info{
-    max-width: 960px;
     margin: auto;
     color: #1f2937;
     background-color: #f9faf8;
+    display:flex;  
+    flex-direction: column;
+    gap: 60px;
+}
+.testimonials{
     display: flex;
-    align-items: stretch;
+    flex-flow: row, wrap;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 50px;
+    margin-bottom: 100px;
+    width: auto;
+}
+.testimonial{
+    max-width: 300px;
+    text-align: center;
+    
+}
+.infotext{
+    margin-top: 30px;
+    font-size: 36px;
+    font-weight: 900;
+    align-self: center;
+}
+.quote{
+    
 }
