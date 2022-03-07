@@ -39,7 +39,6 @@ a{
 button{
     border-style: none;
     border-radius: 10px;
-    margin-top: 10px;
     padding: 4px 16px;
     background-color: #3882F6;
     color: #f9faf8;
@@ -108,4 +107,34 @@ ul{
     font-weight: 800;
     color: #1f2937;
     align-self: flex-end;
+}
+.call2action{
+    background-color: #3882F6;
+    width: 1000px;
+    margin: 90px auto;
+    padding: 40px 60px;
+    border-radius: 15px;
+    display: flex;
+    justify-content: space-between;
+}
+.callmain{
+    font-weight: 800;
+    font-size: 20px;
+}
+.button2{
+    align-self: center;
+    border-style: solid;
+    border-width: 3px;
+    border-radius: 10px;
+    border-color: #f9faf8;
+}
+
+.footer{
+    height: 70px;
+    color: #e5e7eb;
+    font-size: 20px;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
